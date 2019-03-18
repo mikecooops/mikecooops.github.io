@@ -1,0 +1,84 @@
+div{
+	position: absolute;
+}
+
+.r{
+	background-color: rgb(220,23,65);
+	top:200px;
+	left:250px;
+}
+
+.r1{
+	background-color: rgb(220,23,65);
+	width:10px;
+	height:300px;
+}
+
+.r2{
+	background-color: rgb(220,23,65);
+	left:-20px;
+	width:30px;
+	height:10px;
+}
+
+.r3{
+	background-color: rgb(220,23,65);
+	top:290px;
+	left:1px;
+	width:30px;
+	height:10px; 
+}
+
+.r4{
+	background-color: rgb(220,23,65);
+	top:0px;
+	left:10px;
+	width:150px;
+	height:150px;
+	border:2px solid rgb(220,23,65);
+	border-radius:50%;
+}
+
+.r5{
+	 top:360px;
+	 left:270px;
+	 width: 0px;
+     height: 0px;
+     border-bottom: 150px solid rgb(220,23,65);
+     border-right: 250px solid transparent;
+}
+
+div{
+	position:absolute;
+}
+
+.a{
+	background-color: rgb(220,23,65);
+	top:200px;
+	left:470px;
+}
+
+.a1{
+	background-color: rgb(220,23,65);
+	width:10px;
+	height:250px;
+	transform: rotate(32deg);
+}
+.a2{
+	width: 150px;
+  	height: 150px;
+  	top: 32px;
+  	left: -25px;
+  	width: 0;
+  	height: 0;
+  	border-left: 140px solid transparent;
+  	border-right: 140px solid transparent;
+  	border-bottom: 210px solid rgb(220,23,65);
+}
+.a3{
+	background-color: rgb(220,23,65);
+	top:12px;
+	left:46px;
+	width:30px;
+	height:10px;
+}
