@@ -60,6 +60,7 @@ div{
 
 .a1{
 	background-color: rgb(220,23,65);
+	left:18px;
 	width:10px;
 	height:250px;
 	transform: rotate(32deg);
@@ -78,7 +79,7 @@ div{
 .a3{
 	background-color: rgb(220,23,65);
 	top:12px;
-	left:46px;
+	left:64px;
 	width:30px;
 	height:10px;
 }
@@ -182,12 +183,15 @@ div{
 }
 
 .e3{
-	top:157px;
+	top:187px;
 	left:26px;
 	width: 0px;
     height: 0px;
-    border-bottom: 150px solid rgb(220,23,65);
-    border-right: 250px solid transparent;
+    border-bottom: 120px solid rgb(220,23,65);
+    border-right: 220px solid transparent;
+
+    /*border-bottom: 150px solid rgb(220,23,65);
+    border-right: 250px solid transparent;*/
 }
 
 .e4{
@@ -195,28 +199,39 @@ div{
 	left:26px;
 	width: 0px;
     height: 0px;
-    border-bottom: 150px solid rgb(220,23,65);
-    border-right: 250px solid transparent;
+    border-bottom: 120px solid rgb(220,23,65);
+    border-right: 220px solid transparent;
     transform: scaleX(-1) rotate(180deg);
+
+
+    /*border-bottom: 150px solid rgb(220,23,65);
+    border-right: 250px solid transparent;
+    transform: scaleX(-1) rotate(180deg);*/
 }
 
 .e5{
 	width: 150px;
   	height: 150px;
-  	top: 95px;
+  	top: 104px;
   	left: 50px;
   	width: 0;
   	height: 0;
-  	border-left: 70px solid transparent;
+  	border-left: 50px solid transparent;
+  	border-right: 50px solid transparent;
+  	border-bottom: 100px solid rgb(220,23,65);
+  	transform: rotate(-90deg);
+
+
+  	/*border-left: 70px solid transparent;
   	border-right: 70px solid transparent;
   	border-bottom: 120px solid rgb(220,23,65);
-  	transform: rotate(-90deg);
+  	transform: rotate(-90deg);*/
 }
 
 .s{
 	background-color: rgb(220,23,65);
 	top:215px;
-	left:1050px;
+	left:1010px;
 }
 
 /*.s1{
@@ -305,7 +320,7 @@ div{
 }
 
 .text{
-	left:277px;
+	left:189px;
 }
 
 p{
@@ -313,4 +328,8 @@ p{
 	font-family: Georgia;
   	font-size: 12px;
   	line-height: 18px;
+}
+
+.wrapper{
+	transform:scale(.65);
 }
