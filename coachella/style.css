@@ -1,0 +1,195 @@
+.wrapper{
+	overflow: hidden;
+	width:100vw;
+	height:100vh;
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+}
+
+.bg{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	background-image: url("background.gif");
+	/*background-size: contain;*/
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-color: rgb(255,200,200);*/
+}
+
+.headline{
+	position: absolute;
+	width: 500px;
+	height: 500px;
+	top:-110px;
+	left:56px;
+	background-image: url("coachella.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	/*position: absolute;
+	top: 50px;
+	left: 90px;
+	font-family: Montserrat Alternates ExtraBold, sans-serif;
+	font-size: 80px;
+	color: white;
+	opacity: 0.7;*/
+}
+
+.headline2{
+	position: absolute;
+	top:140px;
+	/*bottom: 12px;*/
+	left:93px;
+	font-family: Poiret One;
+	font-size: 30px;
+	/*font-weight: bold;*/
+	color: white;
+	white-space: nowrap;
+}
+
+.date{
+	position: absolute;
+	top:185px;
+	left:93px;
+	font-family: Poiret One;
+	font-size: 30px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+.headline3{
+	position: absolute;
+	top:230px;
+	left:93px;
+	font-family: Poiret One;
+	font-size: 30px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+.artist1{
+	position: absolute;
+	width: 900px;
+	height: 900px;
+	top:-260px;
+	left:270px;
+	background-image: url("tame.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(10deg);
+}
+
+/*.artist1:hover {
+	top:-265px;
+	cursor: pointer;
+}*/
+
+.artist2{
+	position: absolute;
+	width: 850px;
+	height: 850px;
+	top:-60px;
+	left:156px;
+	background-image: url("ariana.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(10deg);
+}
+
+/*.artist2:hover {
+	top:145px;
+	cursor: pointer;
+}
+*/
+.artist3{
+	position: absolute;
+	width: 620px;
+	height: 620px;
+	top:150px;
+	left:370px;
+	background-image: url("childish.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transform: rotate(10deg);
+}
+
+/*.artist3:hover {
+	top:285px;
+	cursor: pointer;
+}*/
+
+.price{
+	position: absolute;
+	width: 550px;
+	height: 550px;
+	top:290px;
+	left:-68px;
+	background-image: url("price.svg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (max-width:375px) 
+{
+	.headline{
+		width: 320px;
+		height: 320px;
+		top:-50px;
+		left:0px;
+	}
+	.headline2{
+		font-size: 20px;
+		top: 115px;
+		left:27px;
+	}
+	.date{
+		font-size: 20px;
+		top:150px;
+		left:30px;
+	}
+	.headline3{
+		font-size: 20px;
+		top:182px;
+		left:30px;
+	}
+	.price{
+		width:370px;
+		height:370px;
+		top:585px;
+		left:-85px;
+	}
+	.artist1{
+		width:490px;
+		height:490px;
+		top:125px;
+		left:-20px;
+	}
+	.artist2{
+		width:535px;
+		height:535px;
+		top:170px;
+		left:-45px;
+	}
+	.artist3{
+		width:440px;
+		height:440px;
+		top:288px;
+		left:-5px;
+	}
+	.bg{
+		background-image: url("background.gif");
+		background-position:right center;	
+	}
+}
