@@ -1,0 +1,28 @@
+.bg{
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top:0;
+	left:0;
+	background-image: url("homepage.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.title{
+	position: absolute;
+	top:65px;
+	left:93px;
+	font-family: Poiret One;
+	font-size: 80px;
+}
+
+.title2{
+	position: absolute;
+	top:65px;
+	left:270px;
+	font-family: Poiret One;
+	font-size: 40px;
+}
+
