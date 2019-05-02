@@ -4,25 +4,371 @@
 	height: 100vh;
 	top:0;
 	left:0;
-	background-image: url("homepage.jpg");
+	background-image: url("homepage1.jpg");
 	background-position: center;
-	background-size: cover;
+	/*background-size: cover;*/
 	background-repeat: no-repeat;
+}
+
+.ring{
+	position: absolute;
+	background-image: url("ring.svg");
+	top:148px;
+	left:368px;
+	width:95px;
+	height:95px;
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+
+ 	animation-name: spin;
+  	animation-duration: 5000ms;
+  	animation-iteration-count: infinite;
+  	animation-timing-function: linear; 
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
 
 .title{
 	position: absolute;
 	top:65px;
 	left:93px;
-	font-family: Poiret One;
+	font-family: Aclonica Regular;
+	font-size: 80px;
+}
+
+.title1{
+	position: absolute;
+	top:145px;
+	left:93px;
+	font-family: Aclonica Regular;
 	font-size: 80px;
 }
 
 .title2{
 	position: absolute;
 	top:65px;
-	left:270px;
-	font-family: Poiret One;
+	left:337px;
+	font-family: Aclonica Regular;
 	font-size: 40px;
 }
 
+.title3{
+	position: absolute;
+	top:260px;
+	left:98px;
+	font-family: Poiret One;
+	font-size: 30px;
+}
+
+.title4{
+	position: absolute;
+	top:300px;
+	left:98px;
+	font-family: Poiret One;
+	font-size: 30px;
+}
+
+.line{
+	position:absolute;
+	width:255px;
+	height:3px;
+	top:238px;
+	left:99px;
+	background-color: black 
+}
+
+.aragorn1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:-30px;
+	left:640px;
+	background-image: url("aragornbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.theoden1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:-30px;
+	left:820px;
+	background-image: url("theodenbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.boromir1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:-30px;
+	left:990px;
+	background-image: url("boromirbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.wraith1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:155px;
+	left:645px;
+	background-image: url("wraithbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.orc1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:155px;
+	left:820px;
+	background-image: url("orcbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.undead1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:155px;
+	left:990px;
+	background-image: url("undeadbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.elrond1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:340px;
+	left:645px;
+	background-image: url("elrondbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.infantry1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:340px;
+	left:820px;
+	background-image: url("infantrybutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.legolas1{
+	position: absolute;
+	width: 150px;
+	height: 150px;
+	top:340px;
+	left:990px;
+	background-image: url("legolasbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.frodo1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:366px;
+	left:210px;
+	background-image: url("frodobutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.bilbo1{
+	position: absolute;
+	width: 100px;
+	height: 100px;
+	top:366px;
+	left:335px;
+	background-image: url("bilbobutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.smeagol1{
+	position: absolute;
+	width: 145px;
+	height: 145px;
+	top:344px;
+	left:452px;
+	background-image: url("smeagolbutton.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.aragorn2{
+	position: absolute;
+	width: 540px;
+	height: 540px;
+	top:40px;
+	left:330px;
+	background-image: url("aragornpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.theoden2{
+	position: absolute;
+	width: 540px;
+	height: 540px;
+	top:40px;
+	left:220px;
+	background-image: url("theodenpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.boromir2{
+	position: absolute;
+	width: 650px;
+	height: 650px;
+	top:-35px;
+	left:180px;
+	background-image: url("boromirpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.wraith2{
+	position: absolute;
+	width: 560px;
+	height: 560px;
+	top:35px;
+	left:220px;
+	background-image: url("wraithpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.orc2{
+	position: absolute;
+	width: 560px;
+	height: 560px;
+	top:35px;
+	left:220px;
+	background-image: url("orcpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.undead2{
+	position: absolute;
+	width: 560px;
+	height: 560px;
+	top:35px;
+	left:220px;
+	background-image: url("undeadpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.elrond2{
+	position: absolute;
+	width: 860px;
+	height: 860px;
+	top:-145px;
+	left:130px;
+	background-image: url("elrondpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.infantry2{
+	position: absolute;
+	width: 650px;
+	height: 650px;
+	top:-20px;
+	left:195px;
+	background-image: url("infantrypage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.legolas2{
+	position: absolute;
+	width: 580px;
+	height: 580px;
+	top:20px;
+	left:240px;
+	background-image: url("legolaspage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.frodo2{
+	position: absolute;
+	width: 480px;
+	height: 480px;
+	top:70px;
+	left:290px;
+	background-image: url("frodopage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.bilbo2{
+	position: absolute;
+	width: 480px;
+	height: 480px;
+	top:70px;
+	left:290px;
+	background-image: url("bilbopage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
+
+.smeagol2{
+	position: absolute;
+	width: 480px;
+	height: 480px;
+	top:70px;
+	left:290px;
+	background-image: url("smeagolpage.svg");
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+}
