@@ -88,20 +88,24 @@
 .aragorn1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:-30px;
+	height: 50px;
+	top:20px;
 	left:640px;
 	background-image: url("aragornbutton.svg");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
+}
+
+.aragorn1:hover {
+  	top:15px;
 }
 
 .theoden1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:-30px;
+	height: 50px;
+	top:20px;
 	left:820px;
 	background-image: url("theodenbutton.svg");
 	background-position: center;
@@ -109,11 +113,15 @@
 	background-repeat: no-repeat;
 }
 
+.theoden1:hover {
+  	top:15px;
+}
+
 .boromir1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:-30px;
+	height: 50px;
+	top:20px;
 	left:990px;
 	background-image: url("boromirbutton.svg");
 	background-position: center;
@@ -121,11 +129,15 @@
 	background-repeat: no-repeat;
 }
 
+.boromir1:hover {
+  	top:15px;
+}
+
 .wraith1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:155px;
+	height: 50px;
+	top:205px;
 	left:645px;
 	background-image: url("wraithbutton.svg");
 	background-position: center;
@@ -133,11 +145,15 @@
 	background-repeat: no-repeat;
 }
 
+.wraith1:hover {
+  	top:200px;
+}
+
 .orc1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:155px;
+	height: 50px;
+	top:205px;
 	left:820px;
 	background-image: url("orcbutton.svg");
 	background-position: center;
@@ -145,11 +161,15 @@
 	background-repeat: no-repeat;
 }
 
+.orc1:hover {
+  	top:200px;
+}
+
 .undead1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:155px;
+	height: 50px;
+	top:205px;
 	left:990px;
 	background-image: url("undeadbutton.svg");
 	background-position: center;
@@ -157,11 +177,15 @@
 	background-repeat: no-repeat;
 }
 
+.undead1:hover {
+  	top:200px;
+}
+
 .elrond1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:340px;
+	height: 50px;
+	top:390px;
 	left:645px;
 	background-image: url("elrondbutton.svg");
 	background-position: center;
@@ -169,11 +193,15 @@
 	background-repeat: no-repeat;
 }
 
+.elrond1:hover {
+  	top:385px;
+}
+
 .infantry1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:340px;
+	height: 50px;
+	top:390px;
 	left:820px;
 	background-image: url("infantrybutton.svg");
 	background-position: center;
@@ -181,11 +209,15 @@
 	background-repeat: no-repeat;
 }
 
+.infantry1:hover {
+  	top:385px;
+}
+
 .legolas1{
 	position: absolute;
 	width: 150px;
-	height: 150px;
-	top:340px;
+	height: 50px;
+	top:390px;
 	left:990px;
 	background-image: url("legolasbutton.svg");
 	background-position: center;
@@ -193,11 +225,15 @@
 	background-repeat: no-repeat;
 }
 
+.legolas1:hover {
+  	top:385px;
+}
+
 .frodo1{
 	position: absolute;
 	width: 100px;
-	height: 100px;
-	top:366px;
+	height: 50px;
+	top:392px;
 	left:210px;
 	background-image: url("frodobutton.svg");
 	background-position: center;
@@ -205,11 +241,15 @@
 	background-repeat: no-repeat;
 }
 
+.frodo1:hover {
+  	top:387px;
+}
+
 .bilbo1{
 	position: absolute;
 	width: 100px;
-	height: 100px;
-	top:366px;
+	height: 50px;
+	top:392px;
 	left:335px;
 	background-image: url("bilbobutton.svg");
 	background-position: center;
@@ -217,16 +257,24 @@
 	background-repeat: no-repeat;
 }
 
+.bilbo1:hover {
+  	top:387px;
+}
+
 .smeagol1{
 	position: absolute;
 	width: 145px;
-	height: 145px;
-	top:344px;
+	height: 60px;
+	top:388px;
 	left:452px;
 	background-image: url("smeagolbutton.svg");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
+}
+
+.smeagol1:hover {
+  	top:383px;
 }
 
 .aragorn2{
@@ -371,4 +419,244 @@
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
+}
+
+.aragorntext{
+	position: absolute;
+	top:115px;
+	left:660px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.theodentext{
+	position: absolute;
+	top:115px;
+	left:660px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.boromirtext{
+	position: absolute;
+	top:115px;
+	left:740px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.wraithtext{
+	position: absolute;
+	top:115px;
+	left:670px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.orctext{
+	position: absolute;
+	top:115px;
+	left:640px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.undeadtext{
+	position: absolute;
+	top:115px;
+	left:760px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.elrondtext{
+	position: absolute;
+	top:115px;
+	left:655px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.infantrytext{
+	position: absolute;
+	top:115px;
+	left:655px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.legolastext{
+	position: absolute;
+	top:115px;
+	left:755px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.frodotext{
+	position: absolute;
+	top:115px;
+	left:675px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.bilbotext{
+	position: absolute;
+	top:115px;
+	left:655px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.smeagoltext{
+	position: absolute;
+	top:115px;
+	left:655px;
+	font-family: Poiret One;
+	font-size: 22px;
+	/*font-weight: bold;*/
+}
+
+.aragornname{
+	position: absolute;
+	top:290px;
+	left:80px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(0,169,157);
+}
+
+.theodenname{
+	position: absolute;
+	top:290px;
+	left:80px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(0,169,157);
+}
+
+.boromirname{
+	position: absolute;
+	top:290px;
+	left:60px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(0,169,157);
+}
+
+.wraithname{
+	position: absolute;
+	top:290px;
+	left:60px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(193,39,45);
+}
+
+.orcname{
+	position: absolute;
+	top:320px;
+	left:230px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(193,39,45);
+}
+
+.undeadname{
+	position: absolute;
+	top:290px;
+	left:45px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(193,39,45);
+}
+
+.elrondname{
+	position: absolute;
+	top:290px;
+	left:130px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(57,181,74);
+}
+
+.infantryname{
+	position: absolute;
+	top:290px;
+	left:120px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(57,181,74);
+}
+
+.legolasname{
+	position: absolute;
+	top:290px;
+	left:80px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(57,181,74);
+}
+
+.frodoname{
+	position: absolute;
+	top:290px;
+	left:140px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(251,176,59);
+}
+
+.bilboname{
+	position: absolute;
+	top:290px;
+	left:212px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(251,176,59);
+}
+
+.smeagolname{
+	position: absolute;
+	top:290px;
+	left:120px;
+	font-family: Aclonica Regular;
+	font-size: 85px;
+	transform: rotate(-90deg);
+	/*opacity: .5;*/
+	color:rgb(251,176,59);
 }
