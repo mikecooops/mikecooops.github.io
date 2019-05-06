@@ -91,7 +91,7 @@
 	height: 50px;
 	top:20px;
 	left:640px;
-	background-image: url("aragornbutton.svg");
+	background-image: url("aragornbutton.png");
 	background-position: center;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -107,7 +107,7 @@
 	height: 50px;
 	top:20px;
 	left:820px;
-	background-image: url("theodenbutton.svg");
+	background-image: url("theodenbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -123,7 +123,7 @@
 	height: 50px;
 	top:20px;
 	left:990px;
-	background-image: url("boromirbutton.svg");
+	background-image: url("boromirbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -139,7 +139,7 @@
 	height: 50px;
 	top:205px;
 	left:645px;
-	background-image: url("wraithbutton.svg");
+	background-image: url("wraithbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -155,7 +155,7 @@
 	height: 50px;
 	top:205px;
 	left:820px;
-	background-image: url("orcbutton.svg");
+	background-image: url("orcbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -171,7 +171,7 @@
 	height: 50px;
 	top:205px;
 	left:990px;
-	background-image: url("undeadbutton.svg");
+	background-image: url("undeadbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -187,7 +187,7 @@
 	height: 50px;
 	top:390px;
 	left:645px;
-	background-image: url("elrondbutton.svg");
+	background-image: url("elrondbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -203,7 +203,7 @@
 	height: 50px;
 	top:390px;
 	left:820px;
-	background-image: url("infantrybutton.svg");
+	background-image: url("infantrybutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -219,7 +219,7 @@
 	height: 50px;
 	top:390px;
 	left:990px;
-	background-image: url("legolasbutton.svg");
+	background-image: url("legolasbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -235,7 +235,7 @@
 	height: 50px;
 	top:392px;
 	left:210px;
-	background-image: url("frodobutton.svg");
+	background-image: url("frodobutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -251,7 +251,7 @@
 	height: 50px;
 	top:392px;
 	left:335px;
-	background-image: url("bilbobutton.svg");
+	background-image: url("bilbobutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
@@ -267,7 +267,7 @@
 	height: 60px;
 	top:388px;
 	left:452px;
-	background-image: url("smeagolbutton.svg");
+	background-image: url("smeagolbutton.png");
 	background-position: center;
 	/*background-size: cover;*/
 	background-repeat: no-repeat;
