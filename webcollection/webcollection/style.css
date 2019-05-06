@@ -109,7 +109,7 @@
 	left:820px;
 	background-image: url("theodenbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -125,7 +125,7 @@
 	left:990px;
 	background-image: url("boromirbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -141,7 +141,7 @@
 	left:645px;
 	background-image: url("wraithbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -157,7 +157,7 @@
 	left:820px;
 	background-image: url("orcbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -173,7 +173,7 @@
 	left:990px;
 	background-image: url("undeadbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -189,7 +189,7 @@
 	left:645px;
 	background-image: url("elrondbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -205,7 +205,7 @@
 	left:820px;
 	background-image: url("infantrybutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -221,7 +221,7 @@
 	left:990px;
 	background-image: url("legolasbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -237,7 +237,7 @@
 	left:210px;
 	background-image: url("frodobutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -253,7 +253,7 @@
 	left:335px;
 	background-image: url("bilbobutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
@@ -269,7 +269,7 @@
 	left:452px;
 	background-image: url("smeagolbutton.png");
 	background-position: center;
-	/*background-size: cover;*/
+	background-size: contain;
 	background-repeat: no-repeat;
 }
 
